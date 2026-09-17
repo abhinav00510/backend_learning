@@ -1,0 +1,30 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+html, body{
+   height: 100%;
+   width: 100%;
+}
+
+html{
+    background-color: #0c0c0c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.notes{
+    display: flex;
+    /* gap: 1rem; */
+    padding-block: 1rem;
+    /* padding-inline: 3rem; */
+}
+
+.note{
+    background-color: blanchedalmond;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 15rem;
+}
